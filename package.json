@@ -1,0 +1,28 @@
+{
+  "name": "timelapse.io",
+  "version": "1.0.0",
+  "description": "A Journal Thingybob",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timelapseio/backend.git"
+  },
+  "keywords": [
+    "journal"
+  ],
+  "author": "James Broad <jb@kulor.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timelapseio/backend/issues"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "gun": "^0.8.3",
+    "gun-level": "^6.0.1",
+    "leveldown": "^1.7.2",
+    "levelup": "^1.3.9"
+  }
+}
